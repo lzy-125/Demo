@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc54442f-e95d-4451-a8b3-cb2cb324d1e7" name="Default Changelist" comment="日常作业小Demo">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Homework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/META-INF/Homework.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/EscapeAnalysisTest$User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/EscapeAnalysisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Heap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/LeetCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/ProducerAndConsumer$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/ProducerAndConsumer$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/ProducerAndConsumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/TT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Work$Write_1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Work$Write_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Work.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/EscapeAnalysisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/LeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/ProducerAndConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/TT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/TenThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/WaitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/WaitAndNotify5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/print.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tIykpVaGKlTq2OY0XHocsHz2J5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Application.LeetCode">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org.CountDownLatchDemo" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org.LeetCode" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TenThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org.TenThread" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org.WaitAndNotify" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitAndNotify5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org.WaitAndNotify5" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Org.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LeetCode" />
+        <item itemvalue="Application.TenThread" />
+        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.WaitAndNotify5" />
+        <item itemvalue="Application.WaitAndNotify" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc54442f-e95d-4451-a8b3-cb2cb324d1e7" name="Default Changelist" comment="" />
+      <created>1622471043385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622471043385</updated>
+      <workItem from="1622471046058" duration="84000" />
+      <workItem from="1622549709378" duration="2025000" />
+      <workItem from="1622680703335" duration="599000" />
+      <workItem from="1622942900357" duration="8442000" />
+      <workItem from="1623044818408" duration="4000" />
+      <workItem from="1623044838072" duration="2421000" />
+      <workItem from="1623152608931" duration="1398000" />
+      <workItem from="1623158549878" duration="7591000" />
+      <workItem from="1623199016777" duration="1250000" />
+      <workItem from="1623200652309" duration="534000" />
+      <workItem from="1623234109527" duration="1387000" />
+      <workItem from="1623245492409" duration="3690000" />
+      <workItem from="1623304254816" duration="822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="日常作业小Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="日常作业小Demo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="461" y="41" width="920" height="1023" key="CommitChangelistDialog2" timestamp="1623304969199">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="461" y="41" width="920" height="1023" key="CommitChangelistDialog2/0.27.1853.1053@0.27.1853.1053" timestamp="1623304969199" />
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl" timestamp="1623304779954">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl/0.27.1853.1053@0.27.1853.1053" timestamp="1623304779954" />
+    <state width="1799" height="297" key="GridCell.Tab.0.bottom" timestamp="1623287516767">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.0.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
+    <state width="1799" height="297" key="GridCell.Tab.0.center" timestamp="1623287516767">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.0.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
+    <state width="1799" height="297" key="GridCell.Tab.0.left" timestamp="1623287516767">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.0.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
+    <state width="1799" height="297" key="GridCell.Tab.0.right" timestamp="1623287516767">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.0.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
+    <state width="1799" height="297" key="GridCell.Tab.1.bottom" timestamp="1623287516880">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.1.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516880" />
+    <state width="1799" height="297" key="GridCell.Tab.1.center" timestamp="1623287516879">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.1.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516879" />
+    <state width="1799" height="297" key="GridCell.Tab.1.left" timestamp="1623287516878">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.1.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516878" />
+    <state width="1799" height="297" key="GridCell.Tab.1.right" timestamp="1623287516879">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="297" key="GridCell.Tab.1.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516879" />
+    <state x="408" y="187" key="SettingsEditor" timestamp="1623304396127">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="408" y="187" key="SettingsEditor/0.27.1853.1053@0.27.1853.1053" timestamp="1623304396127" />
+    <state x="540" y="234" width="762" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1623165489569">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="540" y="234" width="762" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1623165489569" />
+    <state x="590" y="252" key="run.anything.popup" timestamp="1622953911227">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="590" y="252" key="run.anything.popup/0.27.1853.1053@0.27.1853.1053" timestamp="1622953911227" />
+  </component>
+</project>
