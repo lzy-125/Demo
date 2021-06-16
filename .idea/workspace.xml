@@ -1,11 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc54442f-e95d-4451-a8b3-cb2cb324d1e7" name="Default Changelist" comment="日常作业小Demo">
+    <list default="true" id="bc54442f-e95d-4451-a8b3-cb2cb324d1e7" name="Default Changelist" comment="CountDownLatch的小demo">
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Callble.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Callble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/EscapeAnalysisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/LeetCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Notes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/ProducerAndConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/TT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/WaitAndNotify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/WaitAndNotify5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/Work.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org/print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Org1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Org/TenThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Org/TenThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +43,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/Org" />
   </component>
   <component name="ProjectId" id="1tIykpVaGKlTq2OY0XHocsHz2J5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -33,7 +56,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../桌面/06-13/first-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Org" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -143,15 +166,44 @@
       <workItem from="1623715597813" duration="819000" />
       <workItem from="1623722806452" duration="626000" />
       <workItem from="1623842890219" duration="3440000" />
+      <workItem from="1623848232968" duration="624000" />
     </task>
+    <task id="LOCAL-00001" summary="CountDownLatch的小demo">
+      <created>1623848287876</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1623848287876</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改CountDownLatch的小demo">
+      <created>1623848804757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1623848804757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="日常作业小Demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="日常作业小Demo" />
+    <MESSAGE value="CountDownLatch的小demo" />
+    <MESSAGE value="修改CountDownLatch的小demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改CountDownLatch的小demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="635" y="345" width="573" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623550664494">
@@ -166,14 +218,14 @@
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state x="676" y="438" width="501" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1853.1053@0.27.1853.1053" timestamp="1623561672985" />
-    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2" timestamp="1623551966846">
+    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2" timestamp="1623848804688">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2/0.27.1853.1053@0.27.1853.1053" timestamp="1623551966846" />
-    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl" timestamp="1623717327183">
+    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2/0.27.1853.1053@0.27.1853.1053" timestamp="1623848804688" />
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl" timestamp="1623848693005">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl/0.27.1853.1053@0.27.1853.1053" timestamp="1623717327183" />
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl/0.27.1853.1053@0.27.1853.1053" timestamp="1623848693005" />
     <state width="1799" height="357" key="GridCell.Tab.0.bottom" timestamp="1623846377367">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
