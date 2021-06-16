@@ -2,48 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc54442f-e95d-4451-a8b3-cb2cb324d1e7" name="Default Changelist" comment="日常作业小Demo">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/META-INF/Homework.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/EscapeAnalysisTest$User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/EscapeAnalysisTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Heap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/LeetCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/ProducerAndConsumer$Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/ProducerAndConsumer$Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/ProducerAndConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/TT.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify5$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/WaitAndNotify5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Work$Write_1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Work$Write_2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Work.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/EscapeAnalysisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/Heap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/LeetCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/ProducerAndConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/TT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/TenThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/WaitAndNotify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/WaitAndNotify5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/Work.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org/print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Org/TenThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Org/TenThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +33,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../桌面/06-13/first-web" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode">
+  <component name="RunManager" selected="Application.TenThread">
     <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Org.CountDownLatchDemo" />
       <module name="Homework" />
@@ -102,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TenThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Org.TenThread" />
+    <configuration name="ProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org.ProducerAndConsumer" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Org.WaitAndNotify" />
+    <configuration name="TenThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org.TenThread" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode" />
         <item itemvalue="Application.TenThread" />
-        <item itemvalue="Application.CountDownLatchDemo" />
+        <item itemvalue="Application.ProducerAndConsumer" />
         <item itemvalue="Application.WaitAndNotify5" />
-        <item itemvalue="Application.WaitAndNotify" />
+        <item itemvalue="Application.LeetCode" />
+        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +135,14 @@
       <workItem from="1623200652309" duration="534000" />
       <workItem from="1623234109527" duration="1387000" />
       <workItem from="1623245492409" duration="3690000" />
-      <workItem from="1623304254816" duration="822000" />
+      <workItem from="1623304254816" duration="1961000" />
+      <workItem from="1623549881891" duration="1017000" />
+      <workItem from="1623550915513" duration="6570000" />
+      <workItem from="1623564701549" duration="191000" />
+      <workItem from="1623660954225" duration="516000" />
+      <workItem from="1623715597813" duration="819000" />
+      <workItem from="1623722806452" duration="626000" />
+      <workItem from="1623842890219" duration="3440000" />
     </task>
     <servers />
   </component>
@@ -185,46 +154,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="日常作业小Demo" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="41" width="920" height="1023" key="CommitChangelistDialog2" timestamp="1623304969199">
+    <state x="635" y="345" width="573" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623550664494">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="461" y="41" width="920" height="1023" key="CommitChangelistDialog2/0.27.1853.1053@0.27.1853.1053" timestamp="1623304969199" />
-    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl" timestamp="1623304779954">
+    <state x="635" y="345" width="573" height="414" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1623550664494" />
+    <state x="734" y="255" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1623560800327">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl/0.27.1853.1053@0.27.1853.1053" timestamp="1623304779954" />
-    <state width="1799" height="297" key="GridCell.Tab.0.bottom" timestamp="1623287516767">
+    <state x="734" y="255" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1623560800327" />
+    <state x="676" y="438" width="501" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1623561672985">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.0.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
-    <state width="1799" height="297" key="GridCell.Tab.0.center" timestamp="1623287516767">
+    <state x="676" y="438" width="501" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1853.1053@0.27.1853.1053" timestamp="1623561672985" />
+    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2" timestamp="1623551966846">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.0.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
-    <state width="1799" height="297" key="GridCell.Tab.0.left" timestamp="1623287516767">
+    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2/0.27.1853.1053@0.27.1853.1053" timestamp="1623551966846" />
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl" timestamp="1623717327183">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.0.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
-    <state width="1799" height="297" key="GridCell.Tab.0.right" timestamp="1623287516767">
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl/0.27.1853.1053@0.27.1853.1053" timestamp="1623717327183" />
+    <state width="1799" height="357" key="GridCell.Tab.0.bottom" timestamp="1623846377367">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.0.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516767" />
-    <state width="1799" height="297" key="GridCell.Tab.1.bottom" timestamp="1623287516880">
+    <state width="1799" height="357" key="GridCell.Tab.0.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377367" />
+    <state width="1799" height="357" key="GridCell.Tab.0.center" timestamp="1623846377365">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.1.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516880" />
-    <state width="1799" height="297" key="GridCell.Tab.1.center" timestamp="1623287516879">
+    <state width="1799" height="357" key="GridCell.Tab.0.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377365" />
+    <state width="1799" height="357" key="GridCell.Tab.0.left" timestamp="1623846377365">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.1.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516879" />
-    <state width="1799" height="297" key="GridCell.Tab.1.left" timestamp="1623287516878">
+    <state width="1799" height="357" key="GridCell.Tab.0.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377365" />
+    <state width="1799" height="357" key="GridCell.Tab.0.right" timestamp="1623846377366">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.1.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516878" />
-    <state width="1799" height="297" key="GridCell.Tab.1.right" timestamp="1623287516879">
+    <state width="1799" height="357" key="GridCell.Tab.0.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377366" />
+    <state width="1799" height="357" key="GridCell.Tab.1.bottom" timestamp="1623846377369">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="297" key="GridCell.Tab.1.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623287516879" />
+    <state width="1799" height="357" key="GridCell.Tab.1.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377369" />
+    <state width="1799" height="357" key="GridCell.Tab.1.center" timestamp="1623846377368">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="357" key="GridCell.Tab.1.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377368" />
+    <state width="1799" height="357" key="GridCell.Tab.1.left" timestamp="1623846377368">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="357" key="GridCell.Tab.1.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377368" />
+    <state width="1799" height="357" key="GridCell.Tab.1.right" timestamp="1623846377368">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="357" key="GridCell.Tab.1.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377368" />
     <state x="408" y="187" key="SettingsEditor" timestamp="1623304396127">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
@@ -233,9 +214,22 @@
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state x="540" y="234" width="762" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1623165489569" />
+    <state x="696" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623552181407">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="696" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1853.1053@0.27.1853.1053" timestamp="1623552181407" />
+    <state x="203" y="98" width="1439" height="908" key="new project wizard" timestamp="1623561857500">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="203" y="98" width="1439" height="908" key="new project wizard/0.27.1853.1053@0.27.1853.1053" timestamp="1623561857500" />
     <state x="590" y="252" key="run.anything.popup" timestamp="1622953911227">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state x="590" y="252" key="run.anything.popup/0.27.1853.1053@0.27.1853.1053" timestamp="1622953911227" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Homework$TenThread.ic" NAME="TenThread Coverage Results" MODIFIED="1623845134000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Org.*</FILTER>
+    </SUITE>
   </component>
 </project>

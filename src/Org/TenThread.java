@@ -7,6 +7,8 @@ public class TenThread extends Thread {
     //    public static int result = 0;
 //
     private static int results[] = new int[10];
+    static int j = 0;
+    static CountDownLatch countDownLatch = new CountDownLatch(10);
 //
 //
 //    @Override
@@ -31,9 +33,10 @@ public class TenThread extends Thread {
 //    }
 
     public static class SubClass extends Thread {
+
         int sum = 0;
         int flag = 0;
-        CountDownLatch countDownLatch = new CountDownLatch(1);
+
         public SubClass(int flag) {
             this.flag = flag;
         }
@@ -42,10 +45,15 @@ public class TenThread extends Thread {
         public void run() {
             for (int i = 1; i <= 10; i++) {
                 sum += i + flag * 10;
+
             }
-            countDownLatch.countDown();
+            results[j++] = sum;
+
             System.out.println(getName() + "---->" + sum);
+            
+            countDownLatch.countDown();
         }
+
     }
 
     //把当前这个程序改成多线程并发计算，得到最终结果（使用CountDownLatch）
@@ -55,10 +63,11 @@ public class TenThread extends Thread {
         for (int i = 0; i < 10; i++) {
             SubClass subClass = new SubClass(i);
             subClass.start();
-            subClass.countDownLatch.await();
 //            subClass.join();
-            results[i] = subClass.sum;
+
         }
+        countDownLatch.await();
+
         for (int r : results) {
             result += r;
         }
