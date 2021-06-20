@@ -10,10 +10,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc54442f-e95d-4451-a8b3-cb2cb324d1e7" name="Default Changelist" comment="CountDownLatch的小demo">
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Callble.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org/Notes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Test.class" afterDir="false" />
+    <list default="true" id="bc54442f-e95d-4451-a8b3-cb2cb324d1e7" name="Default Changelist" comment="锁对象和类的死锁demo">
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Demo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Demo$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Demo2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Demo2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Demo2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/X.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Homework/Org1/Y.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Org/Callble.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Org/EscapeAnalysisTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Org/Heap.java" afterDir="false" />
@@ -26,9 +33,11 @@
       <change afterPath="$PROJECT_DIR$/src/Org/WaitAndNotify5.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Org/Work.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Org/print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Org1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread$SubClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Homework/Org/TenThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Homework/Org1/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Org1/Demo2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,17 +65,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Org" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Org1" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.TenThread">
-    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Org.CountDownLatchDemo" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org1.DeadLock" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Org.*" />
+          <option name="PATTERN" value="Org1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,12 +83,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Org.LeetCode" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org1.Demo" />
       <module name="Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Org.*" />
+          <option name="PATTERN" value="Org1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Org1.Demo2" />
+      <module name="Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Org1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitAndNotify5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Org.WaitAndNotify5" />
-      <module name="Homework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Org.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Demo2" />
+        <item itemvalue="Application.DeadLock" />
         <item itemvalue="Application.TenThread" />
         <item itemvalue="Application.ProducerAndConsumer" />
-        <item itemvalue="Application.WaitAndNotify5" />
-        <item itemvalue="Application.LeetCode" />
-        <item itemvalue="Application.CountDownLatchDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +175,9 @@
       <workItem from="1623715597813" duration="819000" />
       <workItem from="1623722806452" duration="626000" />
       <workItem from="1623842890219" duration="3440000" />
-      <workItem from="1623848232968" duration="624000" />
+      <workItem from="1623848232968" duration="933000" />
+      <workItem from="1623907808183" duration="799000" />
+      <workItem from="1624190440774" duration="5579000" />
     </task>
     <task id="LOCAL-00001" summary="CountDownLatch的小demo">
       <created>1623848287876</created>
@@ -182,7 +193,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623848804757</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="锁对象和类的死锁demo">
+      <created>1624197132270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624197132270</updated>
+    </task>
+    <task id="LOCAL-00004" summary="锁对象和类的死锁demo">
+      <created>1624197571935</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1624197571935</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,66 +223,76 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="日常作业小Demo" />
     <MESSAGE value="CountDownLatch的小demo" />
     <MESSAGE value="修改CountDownLatch的小demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改CountDownLatch的小demo" />
+    <MESSAGE value="锁对象和类的死锁demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="锁对象和类的死锁demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="635" y="345" width="573" height="414" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623550664494">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state x="635" y="345" width="573" height="414" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1623550664494" />
-    <state x="734" y="255" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1623560800327">
+    <state x="734" y="255" width="374" height="595" key="#com.intellij.ide.util.MemberChooser" timestamp="1624190625803">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="734" y="255" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1623560800327" />
+    <state x="734" y="255" width="374" height="595" key="#com.intellij.ide.util.MemberChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1624190625803" />
     <state x="676" y="438" width="501" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1623561672985">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state x="676" y="438" width="501" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1853.1053@0.27.1853.1053" timestamp="1623561672985" />
-    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2" timestamp="1623848804688">
+    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2" timestamp="1624197818026">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2/0.27.1853.1053@0.27.1853.1053" timestamp="1623848804688" />
-    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl" timestamp="1623848693005">
+    <state x="461" y="74" width="920" height="990" key="CommitChangelistDialog2/0.27.1853.1053@0.27.1853.1053" timestamp="1624197818026" />
+    <state x="175" y="133" width="1482" height="872" key="DiffContextDialog" timestamp="1624197759658">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl/0.27.1853.1053@0.27.1853.1053" timestamp="1623848693005" />
-    <state width="1799" height="357" key="GridCell.Tab.0.bottom" timestamp="1623846377367">
+    <state x="175" y="133" width="1482" height="872" key="DiffContextDialog/0.27.1853.1053@0.27.1853.1053" timestamp="1624197759658" />
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl" timestamp="1624197957323">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.0.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377367" />
-    <state width="1799" height="357" key="GridCell.Tab.0.center" timestamp="1623846377365">
+    <state x="709" y="310" width="453" height="484" key="FileChooserDialogImpl/0.27.1853.1053@0.27.1853.1053" timestamp="1624197957323" />
+    <state width="1799" height="171" key="GridCell.Tab.0.bottom" timestamp="1624197535291">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.0.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377365" />
-    <state width="1799" height="357" key="GridCell.Tab.0.left" timestamp="1623846377365">
+    <state width="1799" height="171" key="GridCell.Tab.0.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1624197535291" />
+    <state width="1799" height="171" key="GridCell.Tab.0.center" timestamp="1624197535291">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.0.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377365" />
-    <state width="1799" height="357" key="GridCell.Tab.0.right" timestamp="1623846377366">
+    <state width="1799" height="171" key="GridCell.Tab.0.center/0.27.1853.1053@0.27.1853.1053" timestamp="1624197535291" />
+    <state width="1799" height="171" key="GridCell.Tab.0.left" timestamp="1624197535291">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.0.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377366" />
-    <state width="1799" height="357" key="GridCell.Tab.1.bottom" timestamp="1623846377369">
+    <state width="1799" height="171" key="GridCell.Tab.0.left/0.27.1853.1053@0.27.1853.1053" timestamp="1624197535291" />
+    <state width="1799" height="171" key="GridCell.Tab.0.right" timestamp="1624197535291">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.1.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377369" />
-    <state width="1799" height="357" key="GridCell.Tab.1.center" timestamp="1623846377368">
+    <state width="1799" height="171" key="GridCell.Tab.0.right/0.27.1853.1053@0.27.1853.1053" timestamp="1624197535291" />
+    <state width="1799" height="294" key="GridCell.Tab.1.bottom" timestamp="1624197135211">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.1.center/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377368" />
-    <state width="1799" height="357" key="GridCell.Tab.1.left" timestamp="1623846377368">
+    <state width="1799" height="294" key="GridCell.Tab.1.bottom/0.27.1853.1053@0.27.1853.1053" timestamp="1624197135211" />
+    <state width="1799" height="294" key="GridCell.Tab.1.center" timestamp="1624197135211">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.1.left/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377368" />
-    <state width="1799" height="357" key="GridCell.Tab.1.right" timestamp="1623846377368">
+    <state width="1799" height="294" key="GridCell.Tab.1.center/0.27.1853.1053@0.27.1853.1053" timestamp="1624197135211" />
+    <state width="1799" height="294" key="GridCell.Tab.1.left" timestamp="1624197135211">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state width="1799" height="357" key="GridCell.Tab.1.right/0.27.1853.1053@0.27.1853.1053" timestamp="1623846377368" />
+    <state width="1799" height="294" key="GridCell.Tab.1.left/0.27.1853.1053@0.27.1853.1053" timestamp="1624197135211" />
+    <state width="1799" height="294" key="GridCell.Tab.1.right" timestamp="1624197135211">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1799" height="294" key="GridCell.Tab.1.right/0.27.1853.1053@0.27.1853.1053" timestamp="1624197135211" />
+    <state x="730" y="180" width="382" height="745" key="RollbackChangesDialog" timestamp="1624197923272">
+      <screen x="0" y="27" width="1853" height="1053" />
+    </state>
+    <state x="730" y="180" width="382" height="745" key="RollbackChangesDialog/0.27.1853.1053@0.27.1853.1053" timestamp="1624197923272" />
     <state x="408" y="187" key="SettingsEditor" timestamp="1623304396127">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
@@ -266,10 +301,10 @@
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
     <state x="540" y="234" width="762" height="637" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1853.1053@0.27.1853.1053" timestamp="1623165489569" />
-    <state x="696" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623552181407">
+    <state x="696" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624197784043">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
-    <state x="696" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1853.1053@0.27.1853.1053" timestamp="1623552181407" />
+    <state x="696" y="462" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1853.1053@0.27.1853.1053" timestamp="1624197784043" />
     <state x="203" y="98" width="1439" height="908" key="new project wizard" timestamp="1623561857500">
       <screen x="0" y="27" width="1853" height="1053" />
     </state>
