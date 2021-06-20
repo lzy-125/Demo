@@ -1,8 +1,9 @@
 package Org1;
 
 
+import org.omg.Messaging.SYNC_WITH_TRANSPORT;
 
-//锁对象的死锁demo
+//死锁demo
 class X {
     public synchronized void xxx(Y y) {
         System.out.println("aaaaaaa");
@@ -20,18 +21,22 @@ class X {
 }
 
 class Y {
-    public synchronized void zzz(X x){
-        System.out.println("cccccccc");
-        try {
-            Thread.sleep(300);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+    public void zzz(X x) {
+        synchronized (Y.class) {
+            System.out.println("cccccccc");
+            try {
+                Thread.sleep(300);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            x.yyy();
         }
-        x.yyy();
     }
 
-    public synchronized void kkk(){
-        System.out.println("dddddddd");
+    public void kkk() {
+        synchronized (Y.class) {
+            System.out.println("dddddddd");
+        }
     }
 }
 
